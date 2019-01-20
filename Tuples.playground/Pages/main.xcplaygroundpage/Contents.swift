@@ -16,7 +16,7 @@
  */
 // write your code here
 
-
+var person = (name: "Joe", age: 35)
 
 
 
@@ -29,7 +29,7 @@
 // write your code here
 
 
-
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -40,7 +40,7 @@
  */
 // write your code here
 
-
+person.age = 36
 
 
 
@@ -52,7 +52,7 @@
  */
 // write your code here
 
-
+print("Happy \(person.age) birthday, \(person.name)!")
 
 
 
@@ -64,7 +64,7 @@
  */
 // write your code here
 
-
+var someone = (name: "Steve", age: 32)
 
 
 
@@ -76,7 +76,7 @@
  */
 // write your code here
 
-
+print("\(someone.name) is \(someone.age) years old")
 
 
 
@@ -88,7 +88,7 @@
 // write your code here
 
 
-
+someone.age = 33
 
 
 
@@ -99,7 +99,7 @@
 // write your code here
 
 
-
+print("Happy \(someone.age) birthday, \(someone.name)!")
 
 
 
@@ -110,7 +110,7 @@
  */
 // write your code here
 
-
+let human = (name: "Cavemane", age: 150)
 
 
 
@@ -123,9 +123,9 @@
 
 
 
+human.age = 120
 
-
-
+/* no you cannot because human was declared as a let constant*/
 
 
 //: Check [here](https://github.com/learn-co-curriculum/swift-tuples-lab/blob/solution/Tuples.playground/Pages/solution.xcplaygroundpage/Contents.swift) for the solution.
